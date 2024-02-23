@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+    <style>
+        .form-container {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+            width: 400px;
+        }
+
+        .form-input {
+            width: 90%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .form-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Section - 1</h2>
+        <table style="background-color: brown;">
+            <tr align="center" style="background-color: aquamarine;">
+                <th width="100">Person</th>
+                <th width="100">Age</th>
+            </tr>
+            <tr align="center" style="background-color: aquamarine;">
+                <td width="100">Ali</td>
+                <td width="100">10</td>
+            </tr>
+            <tr align="center" style="background-color: aquamarine;">
+                <td width="100">Umer</td>
+                <td width="100">12</td>
+            </tr>
+            <tr align="center" style="background-color: aquamarine;">
+                <td width="100">Shahid</td>
+                <td width="100">23</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Section - 2</h2>
+        <div class="form-container">
+            <form>
+                <label class="form-label" for="name">Name:</label>
+                <input class="form-input" type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label class="form-label" for="email">Email:</label>
+                <input class="form-input" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label class="form-label" for="age">Age:</label>
+                <input class="form-input" type="number" id="age" name="age" min="18" max="120" placeholder="Enter your age" required>
+
+                <label class="form-label" for="message">Message:</label>
+                <textarea class="form-input" id="message" name="message" rows="4" placeholder="Type your message"></textarea>
+
+                <button class="form-button" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
