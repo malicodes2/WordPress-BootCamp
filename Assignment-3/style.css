@@ -89,6 +89,10 @@ body {
   font-size: 18px;
 }
 
+button.btn.btn-outline-primary.text-primary:hover {
+  color: white !important;
+}
+
 .newsletter h4{
   font-family: "Futura Md BT";
   font-size: 26px;
