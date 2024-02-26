@@ -128,16 +128,6 @@ footer{
   }
 }
 
-@media (min-width:992px){
-  .services_section .card{
-    width: 16rem;
-  }
-
-  .pricing_section .card{
-    width: 22rem;
-  }
-}
-
 @media (max-width:768px) {
   .hero-header h1{
     font-size: 24px;
@@ -145,19 +135,5 @@ footer{
 
   .hero-header p{
     font-size: 16px;
-  }
-  .pricing_section .card{
-    align-items: center;
-    text-align: center;
-  }
-}
-
-@media (min-width:440px){
-  .portfolio_section button{
-    width: 30%;
-  }
-  .pricing_section .card{
-    align-items: flex-start;
-    text-align: start;
   }
 }
